@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // 1parte
+
+        let nombre = 'dann';
+        let edad = 19;
+        let estudiante = true;
+        
+        console.log(nombre, edad, estudiante);
+        
+        nombre = 'dann';
+        edad = 21;
+        estudiante = false;
+        
+        console.log(nombre, edad, estudiante);
+
+        // 2parte
+
+        let a = 10;
+        let b = 20;
+
+        let suma = a + b;
+        let resta = a - b;
+        let multiplicacion = a * b;
+        let division = a / b;
+        
+        console.log("los numeros son: "+ a, b);
+        console.log("suma: "+suma);
+        console.log("resta: "+resta);
+        console.log("multiplicacion: "+multiplicacion);
+        console.log("division: "+division);
+
+        let igual = a == b;
+        let diferente = a != b;
+        let mayor = a > b;
+        let menor = a < b;
+        let mayorIgual = a >= b;
+        let menorIgual = a <= b;
+
+        console.log("es igual: "+igual);
+        console.log("es diferente: "+diferente);
+        console.log("es mayor: "+mayor);
+        console.log("es menor: "+menor);
+        console.log("es mayor o igual: "+mayorIgual);
+        console.log("es menor o igual: "+menorIgual);
+
+        // 3parte
+
+        let mayor_de_edad = true;
+        let tiene_licencia = false;
+
+       if( mayor_de_edad && tiene_licencia) {
+           console.log('Puede conducir');
+       }
+
+       if( mayor_de_edad || tiene_licencia) {
+           console.log('Puede conducir');
+       }
+
+       let mensaje = `tu nombre es ${nombre}, tienes ${edad} años y acontinuacion mostrara si eres o no estudiante ${estudiante}`;
+       console.log(mensaje);
+
+    </script>
+</body>
+</html>
+
